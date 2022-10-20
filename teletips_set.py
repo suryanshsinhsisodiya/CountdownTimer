@@ -14,12 +14,12 @@ from pyrogram.raw.functions.messages import UpdatePinnedMessage
 
 bot=Client(
     "Countdown-TeLeTiPs",
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
-    bot_token = os.environ["BOT_TOKEN"]
+    api_id = '1366121',
+    api_hash = '0e0549bcaf544b87842e9d2d946b2e15',
+    bot_token = '5777093818:AAFfOX7i9FaqjPZto61qsQcyOo1LtbvHyvw'
 )
 
-footer_message = os.environ["FOOTER_MESSAGE"]
+footer_message = 'We will be uploading the episode as soon as we get out hands on it.'
 
 stoptimer = False
 
